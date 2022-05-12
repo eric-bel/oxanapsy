@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 
 * {
   padding: 0px;
@@ -12,14 +13,39 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main--container--padding: 0 80px;
+  --main--container--padding1200: 0 30px;
+  --main--container--padding600: 0 20px;
+  --main--title--color: #009696;
+  --main--title--font: "Shadows Into Light", cursive;
+  --main--title--weight: 100;
+  --main--grey--text--color: #a39d9d;
+}
+
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #edeced; */
-  background-color: #5f9ea0;
+  background-color: #edeced;
 }
+
+/* .class {
+  padding: var(--main--container--padding);
+}
+
+@media (max-width: 1200px) {
+  .class {
+    padding: var(--main--container--padding1200);
+  }
+}
+
+@media (max-width: 600px) {
+  .class {
+    padding: var(--main--container--padding600);
+  }
+} */
 
 @media (min-width: 1920px) {
   .main_container {
@@ -28,12 +54,10 @@ body {
   }
 }
 
-/* @media (max-width: 768px) {
-  .main_container {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-} */
+@media (max-width: 1200px) {
+}
+@media (max-width: 600px) {
+}
 
 :focus,
 :active {

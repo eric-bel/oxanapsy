@@ -2,7 +2,7 @@ import s from "./HeaderTop.module.css";
 
 const HeaderTop = () => {
   return (
-    <header className="main_container">
+    <div className="main_container">
       <div className={s.header_wrapper}>
         <div className={s.header_container}>
           <div className={s.contact_me}>Записаться на прием:</div>
@@ -14,7 +14,7 @@ const HeaderTop = () => {
           </a>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 export default HeaderTop;
