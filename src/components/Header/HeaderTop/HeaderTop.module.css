@@ -1,0 +1,51 @@
+.header_wrapper {
+  display: flex;
+  height: 30px;
+}
+
+.header_container {
+  color: #fff;
+  background-color: #c1c1b4;
+  width: 100%;
+  padding: 0 80px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.contact_me {
+  color: #fbffff;
+}
+
+.tel_number {
+  color: #009696;
+}
+
+.email {
+  color: #009696;
+}
+
+@media (max-width: 1200px) {
+  .header_container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .header_wrapper {
+    height: 55px;
+  }
+  .header_container {
+    justify-content: center;
+    gap: 0px;
+    font-size: 13px;
+  }
+  .contact_me {
+    margin-right: 5px;
+  }
+  .tel_number {
+    margin-right: 5px;
+  }
+}
