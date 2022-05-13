@@ -1,0 +1,13 @@
+.site_footer {
+  background-color: #a5a59a;
+  color: #009696;
+  text-align: center;
+  padding: 10px 0 20px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.site_footer_link {
+  color: #009696;
+  text-decoration: none;
+}

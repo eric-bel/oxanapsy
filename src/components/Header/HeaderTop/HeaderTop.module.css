@@ -17,14 +17,17 @@
 
 .contact_me {
   color: #fbffff;
+  font-weight: 200;
 }
 
 .tel_number {
   color: #009696;
+  font-weight: 300;
 }
 
 .email {
   color: #009696;
+  font-weight: 300;
 }
 
 @media (max-width: 1200px) {

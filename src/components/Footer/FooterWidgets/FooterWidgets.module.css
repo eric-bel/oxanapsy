@@ -1,0 +1,15 @@
+.footer_widgets {
+  background-color: #c1c1b4;
+  height: 230px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 470px) {
+  .footer_widgets {
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+  }
+}

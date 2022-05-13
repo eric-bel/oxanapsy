@@ -1,0 +1,36 @@
+.contact_us_title {
+  font-family: var(--main--title--font);
+  color: #736c6c;
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-decoration: none;
+  border-bottom: 1px solid #009696;
+  padding-bottom: 12px;
+}
+
+.contact_us_phone {
+  color: #009696;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+.contact_us_phone_icon {
+  color: #ffffff;
+}
+
+.contact_us_email {
+  color: #009696;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+.contact_us_mail_icon {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
