@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/oxanapsy/static/css/main.6e1954e6.css",
+    "main.css": "/oxanapsy/static/css/main.e89b8ca1.css",
     "main.js": "/oxanapsy/static/js/main.0f15569a.js",
     "static/js/787.7d666243.chunk.js": "/oxanapsy/static/js/787.7d666243.chunk.js",
     "static/media/mainimg5.jpg": "/oxanapsy/static/media/mainimg5.097e2d953a40bd9400b1.jpg",
@@ -9,12 +9,12 @@
     "static/media/mainimg4.jpg": "/oxanapsy/static/media/mainimg4.57b52d3936f4dd709eeb.jpg",
     "static/media/logo.png": "/oxanapsy/static/media/logo.f2b799766554d19a5852.png",
     "index.html": "/oxanapsy/index.html",
-    "main.6e1954e6.css.map": "/oxanapsy/static/css/main.6e1954e6.css.map",
+    "main.e89b8ca1.css.map": "/oxanapsy/static/css/main.e89b8ca1.css.map",
     "main.0f15569a.js.map": "/oxanapsy/static/js/main.0f15569a.js.map",
     "787.7d666243.chunk.js.map": "/oxanapsy/static/js/787.7d666243.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e1954e6.css",
+    "static/css/main.e89b8ca1.css",
     "static/js/main.0f15569a.js"
   ]
 }
