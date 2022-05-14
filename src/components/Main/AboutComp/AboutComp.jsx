@@ -1,6 +1,6 @@
 import s from "./AboutComp.module.css";
-// import chuprinskaya from "../../../assets/images/chuprinskaya1.jpg";
 import chuprinskaya from "../../../assets/images/test.png";
+import { NavLink } from "react-router-dom";
 
 const AboutComp = () => {
   return (
@@ -17,9 +17,11 @@ const AboutComp = () => {
               методы – арт-терапии, сказкотерапии, аддиктологии, медиации,
               эриксоновского гипноза, гештальт-терапии, нарративного подхода. По
               своим принципам являюсь гуманистическим психологом. Предпочтение
-              отдаю гуманистично-экзистенциальному подходу/
+              отдаю гуманистично-экзистенциальному подходу.
             </div>
-            <button className={s.about_btn}>Подробнее</button>
+            <NavLink className={s.about_btn} to="/about">
+              Подробнее
+            </NavLink>
           </div>
         </div>
       </div>

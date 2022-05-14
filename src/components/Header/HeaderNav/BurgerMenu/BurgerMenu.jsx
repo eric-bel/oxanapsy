@@ -75,15 +75,6 @@ const BurgerMenu = () => {
               >
                 Статьи
               </NavLink>
-              {/* <ScrollNavLink
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  className="border-b border-gray-400 uppercase hover:text-[#16a34a]"
-                  onClick={() => setIsNavOpen(false)}
-                >
-                  Контакты
-                </ScrollNavLink> */}
             </ul>
           </div>
         </section>
