@@ -7,7 +7,7 @@
 }
 
 .burger_menu_icon {
-  margin-top: 0.3rem;
+  margin-top: 0.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -19,7 +19,7 @@
 
 .span {
   display: block;
-  height: 2px;
+  height: 3px;
   width: 2rem;
   background-color: #666666;
 }
@@ -28,7 +28,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  padding: 1.75rem;
+  padding-right: 1.1rem;
 }
 
 .svg {

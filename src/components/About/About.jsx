@@ -1,6 +1,8 @@
 const About = () => {
   return (
-    <div className="about">About Page About Page About Page About Page</div>
+    <div className="main_container main_padding">
+      About Page About Page About Page About Page
+    </div>
   );
 };
 export default About;

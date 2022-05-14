@@ -1,0 +1,22 @@
+.about_more_title {
+  text-align: center;
+  color: var(--main--title--color);
+  font-size: 35px;
+  font-family: var(--main--title--font);
+  font-weight: var(--main--title--weight);
+}
+
+.about_more_text {
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #282828;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+  .about_more_title {
+    font-size: 20px;
+  }
+}

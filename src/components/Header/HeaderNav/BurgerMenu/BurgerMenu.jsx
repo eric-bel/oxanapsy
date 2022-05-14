@@ -27,7 +27,7 @@ const BurgerMenu = () => {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                strokeWidth="3"
+                strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
@@ -96,15 +96,18 @@ const BurgerMenu = () => {
         display: block;
         position: absolute;
         width: 100%;
-        height: 60vh;
-        top: 0;
+        height: 50vh;
+        top: 1;
         left: 0;
         background: #edeced;
-        z-index: 10;
+        z-index: 50;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        -webkit-box-shadow: 0px 5px 21px -11px rgba(34, 60, 80, 0.22);
+        -moz-box-shadow: 0px 5px 21px -11px rgba(34, 60, 80, 0.22);
+        box-shadow: 0px 5px 21px -11px rgba(34, 60, 80, 0.22);
       }
     `}</style>
     </div>

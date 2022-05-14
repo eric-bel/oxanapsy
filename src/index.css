@@ -47,6 +47,10 @@ body {
   }
 } */
 
+.main_container {
+  height: auto;
+}
+
 @media (min-width: 1920px) {
   .main_container {
     width: 1520px;
@@ -54,9 +58,19 @@ body {
   }
 }
 
+.main_padding {
+  padding: var(--main--container--padding);
+}
+
 @media (max-width: 1200px) {
+  .main_padding {
+    padding: var(--main--container--padding1200);
+  }
 }
 @media (max-width: 600px) {
+  .main_padding {
+    padding: var(--main--container--padding600);
+  }
 }
 
 :focus,
