@@ -1,4 +1,5 @@
 import AboutComp from "./AboutComp/AboutComp";
+import AboutMore from "./AboutMore/AboutMore";
 import s from "./Main.module.css";
 import SwiperComp from "./SwiperComp/SwiperComp";
 const Main = () => {
@@ -6,6 +7,7 @@ const Main = () => {
     <main className={s.main}>
       <SwiperComp />
       <AboutComp />
+      <AboutMore />
     </main>
   );
 };
