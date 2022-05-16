@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/oxanapsy/static/css/main.7543157c.css",
-    "main.js": "/oxanapsy/static/js/main.6158494e.js",
-    "static/js/787.7d666243.chunk.js": "/oxanapsy/static/js/787.7d666243.chunk.js",
+    "main.css": "/oxanapsy/static/css/main.c0c84c5c.css",
+    "main.js": "/oxanapsy/static/js/main.c2671076.js",
+    "static/js/787.07c6aefe.chunk.js": "/oxanapsy/static/js/787.07c6aefe.chunk.js",
+    "static/media/blossom1.jpg": "/oxanapsy/static/media/blossom1.02a2e74d40e51d30f05a.jpg",
+    "static/media/canva.png": "/oxanapsy/static/media/canva.e5db2537b7dfe7a78993.png",
+    "static/media/mainimg2.jpg": "/oxanapsy/static/media/mainimg2.470dde1c83acad42abd5.jpg",
     "static/media/mainimg5.jpg": "/oxanapsy/static/media/mainimg5.097e2d953a40bd9400b1.jpg",
-    "static/media/mainimg311.jpg": "/oxanapsy/static/media/mainimg311.041bc6decf6330e65435.jpg",
+    "static/media/about.jpg": "/oxanapsy/static/media/about.794e9ab68a06956383bc.jpg",
     "static/media/test.png": "/oxanapsy/static/media/test.494e7d8aa69c29efc28a.png",
     "static/media/mainimg4.jpg": "/oxanapsy/static/media/mainimg4.57b52d3936f4dd709eeb.jpg",
     "static/media/logo.png": "/oxanapsy/static/media/logo.f2b799766554d19a5852.png",
     "index.html": "/oxanapsy/index.html",
-    "main.7543157c.css.map": "/oxanapsy/static/css/main.7543157c.css.map",
-    "main.6158494e.js.map": "/oxanapsy/static/js/main.6158494e.js.map",
-    "787.7d666243.chunk.js.map": "/oxanapsy/static/js/787.7d666243.chunk.js.map"
+    "main.c0c84c5c.css.map": "/oxanapsy/static/css/main.c0c84c5c.css.map",
+    "main.c2671076.js.map": "/oxanapsy/static/js/main.c2671076.js.map",
+    "787.07c6aefe.chunk.js.map": "/oxanapsy/static/js/787.07c6aefe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7543157c.css",
-    "static/js/main.6158494e.js"
+    "static/css/main.c0c84c5c.css",
+    "static/js/main.c2671076.js"
   ]
 }
