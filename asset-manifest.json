@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/oxanapsy/static/css/main.c0c84c5c.css",
-    "main.js": "/oxanapsy/static/js/main.c2671076.js",
-    "static/js/787.07c6aefe.chunk.js": "/oxanapsy/static/js/787.07c6aefe.chunk.js",
+    "main.css": "/oxanapsy/static/css/main.3e714588.css",
+    "main.js": "/oxanapsy/static/js/main.fce58161.js",
+    "static/js/787.7d666243.chunk.js": "/oxanapsy/static/js/787.7d666243.chunk.js",
+    "static/media/сertificate4.jpg": "/oxanapsy/static/media/сertificate4.8d30319e0590872aef3a.jpg",
+    "static/media/сertificate3.png": "/oxanapsy/static/media/сertificate3.d3661fcacbd2de7dc5e3.png",
     "static/media/blossom1.jpg": "/oxanapsy/static/media/blossom1.02a2e74d40e51d30f05a.jpg",
     "static/media/canva.png": "/oxanapsy/static/media/canva.e5db2537b7dfe7a78993.png",
+    "static/media/сertificate1.png": "/oxanapsy/static/media/сertificate1.3c411d5b616823693a97.png",
+    "static/media/сertificate5.png": "/oxanapsy/static/media/сertificate5.f35fd6ad2b61d283cc3a.png",
     "static/media/mainimg2.jpg": "/oxanapsy/static/media/mainimg2.470dde1c83acad42abd5.jpg",
     "static/media/mainimg5.jpg": "/oxanapsy/static/media/mainimg5.097e2d953a40bd9400b1.jpg",
     "static/media/about.jpg": "/oxanapsy/static/media/about.794e9ab68a06956383bc.jpg",
+    "static/media/сertificate2.png": "/oxanapsy/static/media/сertificate2.5aaeef1f6e3c1b483905.png",
     "static/media/test.png": "/oxanapsy/static/media/test.494e7d8aa69c29efc28a.png",
     "static/media/mainimg4.jpg": "/oxanapsy/static/media/mainimg4.57b52d3936f4dd709eeb.jpg",
     "static/media/logo.png": "/oxanapsy/static/media/logo.f2b799766554d19a5852.png",
     "index.html": "/oxanapsy/index.html",
-    "main.c0c84c5c.css.map": "/oxanapsy/static/css/main.c0c84c5c.css.map",
-    "main.c2671076.js.map": "/oxanapsy/static/js/main.c2671076.js.map",
-    "787.07c6aefe.chunk.js.map": "/oxanapsy/static/js/787.07c6aefe.chunk.js.map"
+    "main.3e714588.css.map": "/oxanapsy/static/css/main.3e714588.css.map",
+    "main.fce58161.js.map": "/oxanapsy/static/js/main.fce58161.js.map",
+    "787.7d666243.chunk.js.map": "/oxanapsy/static/js/787.7d666243.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0c84c5c.css",
-    "static/js/main.c2671076.js"
+    "static/css/main.3e714588.css",
+    "static/js/main.fce58161.js"
   ]
 }
