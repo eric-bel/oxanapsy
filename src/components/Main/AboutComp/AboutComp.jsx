@@ -1,12 +1,13 @@
 import s from "./AboutComp.module.css";
 import chuprinskaya from "../../../assets/images/test.png";
+import TextTitle from "../../TextTitle/TextTitle";
 // import { NavLink } from "react-router-dom";
 
 const AboutComp = () => {
   return (
     <div className="main_container">
       <div className={s.about_wrapper}>
-        <h2 className={s.about_title}>Обо мне</h2>
+        <TextTitle title={"Обо мне"} />
         <div className={s.about_content_wrapper}>
           <img className={s.about_img} src={chuprinskaya} alt="about_img"></img>
           <div className={s.about_content}>
@@ -18,7 +19,7 @@ const AboutComp = () => {
               стиль консультирования теплый и интерактивный. Я считаю, что ко
               всем нужно относиться с уважением, чуткостью и состраданием.
               Онлайн-терапия позволяет нам гибко встречаться там, где мы
-              выберем, без спешки на путь в офис. 
+              выберем, без спешки на путь в офис.
             </div>
             {/* <NavLink className={s.about_btn} to="/about">
               Подробнее

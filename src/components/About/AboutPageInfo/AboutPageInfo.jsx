@@ -1,5 +1,6 @@
 import s from "./AboutPageInfo.module.css";
 import aboutimg from "../../../assets/images/aboutPage/about.jpg";
+import TextTitle from "../../TextTitle/TextTitle";
 
 const AboutPageInfo = () => {
   return (
@@ -7,9 +8,7 @@ const AboutPageInfo = () => {
       <h5 className={s.about_page_info_title}>Обо мне</h5>
       <div className={s.about_page_info_content}>
         <div className={s.about_page_info_text}>
-          <div className={s.about_page_info_content_title}>
-            Тут будет красивый заголовок
-          </div>
+          <TextTitle title={"Тут будет красивый заголовок"} />
           Приветствую. Меня зовут Оксана Григорьевна Чупринская. Я психолог,
           магистр психологии. В своей работе я эклектична: использую различные
           методы – арт-терапии, сказкотерапии, аддиктологии, медиации,
@@ -24,9 +23,7 @@ const AboutPageInfo = () => {
         <img src={aboutimg} alt="about" className={s.about_page_info_img} />
       </div>
       <div className={s.about_page_info_main_content}>
-        <p className={s.about_page_info_content_title}>
-          В моем профессиональном опыте:
-        </p>
+        <TextTitle title={"В моем профессиональном опыте:"} />
         <ul className={s.about_page_info_skills}>
           <li>
             Личная терапия (групповая и индивидуальная) и консультирование;
@@ -154,12 +151,14 @@ const AboutPageInfo = () => {
           И напоследок одно из любимых мною стихотворений, которое считаю
           настоящей манифестацией своей профессиональной позиции:
         </p>{" "}
-        <p className={s.about_page_info_content_p}>
-          Все мы, так или иначе Ранены стремительной судьбой. Но пока один зовет
-          и плачет, Говорит, к нему склонясь, другой: «Друг, да будет и тебе
-          открыто: Никакая рана не страшна, Если бережно она омыта, Перевязана и
-          прощена».
-        </p>{" "}
+        <strong>
+          <p className={s.about_page_info_content_p}>
+            Все мы, так или иначе <br /> Ранены стремительной судьбой. <br /> Но
+            пока один зовет и плачет, <br /> Говорит, к нему склонясь, другой:{" "}
+            <br /> «Друг, да будет и тебе открыто: Никакая рана не страшна,{" "}
+            <br /> Если бережно она омыта, <br /> Перевязана и прощена».
+          </p>
+        </strong>
         <p className={s.about_page_info_content_p}>(Д. Кленовский)</p>
         <p className={s.about_page_info_content_p}>
           Я буду ждать Вас у себя в кабинете по предварительной записи.

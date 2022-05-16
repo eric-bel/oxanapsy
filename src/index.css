@@ -24,6 +24,7 @@
   --main--title--font: "Lobster", cursive;
   --main--title--weight: 100;
   --main--grey--text--color: #a39d9d;
+  --article--font--size: 1.2rem;
 }
 
 body {
