@@ -1,6 +1,7 @@
 import s from "./SwiperComp.module.css";
-import mainimg1 from "../../../assets/images/mainimg311.jpg";
-import mainimg2 from "../../../assets/images/mainimg4.jpg";
+import mainimg1 from "../../../assets/images/canva.png";
+import mainimg2 from "../../../assets/images/mainimg2.jpg";
+import mainimg4 from "../../../assets/images/mainimg4.jpg";
 import mainimg3 from "../../../assets/images/mainimg5.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -29,6 +30,9 @@ const SwiperComp = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img className={s.swiper_img} src={mainimg2} alt="swiperImg"></img>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className={s.swiper_img} src={mainimg4} alt="swiperImg"></img>
         </SwiperSlide>
         <SwiperSlide>
           <img className={s.swiper_img} src={mainimg3} alt="swiperImg"></img>

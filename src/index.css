@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 * {
   padding: 0px;
@@ -18,17 +20,19 @@
   --main--container--padding1200: 0 30px;
   --main--container--padding600: 0 20px;
   --main--title--color: #009696;
-  --main--title--font: "Shadows Into Light", cursive;
+  /* --main--title--font: "Shadows Into Light", cursive; */
+  --main--title--font: "Lobster", cursive;
   --main--title--weight: 100;
   --main--grey--text--color: #a39d9d;
 }
 
 body {
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Bad Script", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #edeced;
+  line-height: 1.9;
 }
 
 /* .class {
@@ -109,11 +113,6 @@ h6,
 p {
   font-size: inherit;
   font-weight: inherit;
-}
-
-ul,
-ul li {
-  list-style: none;
 }
 
 input,
