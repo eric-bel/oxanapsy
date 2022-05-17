@@ -56,15 +56,15 @@ body {
   height: auto;
 }
 
+.main_padding {
+  padding: var(--main--container--padding);
+}
+
 @media (min-width: 1920px) {
   .main_container {
     width: 1520px;
     margin: 0 auto;
   }
-}
-
-.main_padding {
-  padding: var(--main--container--padding);
 }
 
 @media (max-width: 1200px) {

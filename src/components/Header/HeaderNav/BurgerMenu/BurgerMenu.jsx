@@ -1,6 +1,7 @@
 import s from "./BurgerMenu.module.css";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const BurgerMenu = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -71,10 +72,20 @@ const BurgerMenu = () => {
               <NavLink
                 className={s.nav_link}
                 onClick={() => setIsNavOpen(false)}
-                to="/promotions"
+                to="/blog"
               >
-                Статьи
+                Блог
               </NavLink>
+              <li className={s.contacts}>
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  onClick={() => setIsNavOpen(false)}
+                >
+                  Связаться
+                </Link>
+              </li>
             </ul>
           </div>
         </section>

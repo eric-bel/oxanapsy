@@ -64,6 +64,25 @@
   padding-bottom: 3px;
 }
 
+.contacts {
+  width: 220px;
+  height: 65px;
+  background-color: #00b5b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 5px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.contacts:hover {
+  background-color: #0ac9c9;
+}
+
 @media (max-width: 890px) {
   .burger_menu {
     display: flex;
