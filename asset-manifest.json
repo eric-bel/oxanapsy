@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oxanapsy/static/css/main.2e8ca8c4.css",
-    "main.js": "/oxanapsy/static/js/main.543eca3d.js",
+    "main.css": "/oxanapsy/static/css/main.9636a7f4.css",
+    "main.js": "/oxanapsy/static/js/main.1a8649bd.js",
     "static/js/787.7d666243.chunk.js": "/oxanapsy/static/js/787.7d666243.chunk.js",
     "static/media/сertificate4.jpg": "/oxanapsy/static/media/сertificate4.8d30319e0590872aef3a.jpg",
     "static/media/сertificate3.png": "/oxanapsy/static/media/сertificate3.d3661fcacbd2de7dc5e3.png",
@@ -18,12 +18,12 @@
     "static/media/mainimg4.jpg": "/oxanapsy/static/media/mainimg4.57b52d3936f4dd709eeb.jpg",
     "static/media/logo.png": "/oxanapsy/static/media/logo.f2b799766554d19a5852.png",
     "index.html": "/oxanapsy/index.html",
-    "main.2e8ca8c4.css.map": "/oxanapsy/static/css/main.2e8ca8c4.css.map",
-    "main.543eca3d.js.map": "/oxanapsy/static/js/main.543eca3d.js.map",
+    "main.9636a7f4.css.map": "/oxanapsy/static/css/main.9636a7f4.css.map",
+    "main.1a8649bd.js.map": "/oxanapsy/static/js/main.1a8649bd.js.map",
     "787.7d666243.chunk.js.map": "/oxanapsy/static/js/787.7d666243.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e8ca8c4.css",
-    "static/js/main.543eca3d.js"
+    "static/css/main.9636a7f4.css",
+    "static/js/main.1a8649bd.js"
   ]
 }
