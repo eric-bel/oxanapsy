@@ -1,5 +1,5 @@
 import s from "./FatherRole.module.css";
-import fatherrole from "../../../../assets/images/Articles/fatherrole.jpg";
+import fatherrole from "../../../../assets/images/blogPage/Articles/fatherrole.jpg";
 import TextTitle from "../../../../components/TextTitle/TextTitle";
 
 const FatherRole = () => {
