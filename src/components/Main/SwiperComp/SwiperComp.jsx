@@ -1,5 +1,5 @@
 import s from "./SwiperComp.module.css";
-import mainimg1 from "../../../assets/images/canva.png";
+import mainimg1 from "../../../assets/images/canva1.png";
 import mainimg2 from "../../../assets/images/mainimg2.jpg";
 import mainimg4 from "../../../assets/images/mainimg4.jpg";
 import mainimg3 from "../../../assets/images/mainimg5.jpg";
