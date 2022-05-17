@@ -1,4 +1,5 @@
 import s from "./AboutMore.module.css";
+import { NavLink } from "react-router-dom";
 
 const AboutMore = () => {
   return (
@@ -27,6 +28,9 @@ const AboutMore = () => {
         сайте, с которыми вы также можете ознакомиться, если мой
         профессиональный путь Вас интересует.
       </p>
+      <NavLink className={s.about_btn} to="/about">
+        Подробнее обо мне
+      </NavLink>
       <div className={s.about_more_make_an_appointment}>
         Записаться на приём
       </div>

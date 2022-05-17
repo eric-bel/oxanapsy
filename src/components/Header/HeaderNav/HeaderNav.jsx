@@ -2,6 +2,8 @@ import s from "./HeaderNav.module.css";
 import logo from "../../../assets/images/logo.png";
 import { NavLink } from "react-router-dom";
 import BurgerMenu from "./BurgerMenu/BurgerMenu";
+import { Link } from "react-scroll";
+
 const HeaderNav = () => {
   return (
     <div className="main_container_padding">
@@ -34,8 +36,22 @@ const HeaderNav = () => {
               Обо мне
             </NavLink>
             <li>Услуги</li>
-            <li>Статьи</li>
-            <li className={s.contacts}>Связаться</li>
+            <NavLink
+              className={s.navlink}
+              style={({ isActive }) => {
+                return {
+                  color: isActive ? "#00b5b5" : "",
+                };
+              }}
+              to="/blog"
+            >
+              Блог
+            </NavLink>
+            <li className={s.contacts}>
+              <Link to="contact" spy={true} smooth={true}>
+                Связаться
+              </Link>
+            </li>
           </ul>
         </nav>
         <BurgerMenu />

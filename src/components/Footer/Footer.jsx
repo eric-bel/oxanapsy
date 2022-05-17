@@ -3,7 +3,7 @@ import FooterWidgets from "./FooterWidgets/FooterWidgets";
 import SiteFooter from "./SiteFooter/SiteFooter";
 const Footer = () => {
   return (
-    <footer className="main_container">
+    <footer className="main_container" id="contact">
       <FooterWidgets />
       <SiteFooter />
     </footer>

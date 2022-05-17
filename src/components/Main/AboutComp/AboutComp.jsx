@@ -1,7 +1,6 @@
 import s from "./AboutComp.module.css";
 import chuprinskaya from "../../../assets/images/test.png";
 import TextTitle from "../../TextTitle/TextTitle";
-// import { NavLink } from "react-router-dom";
 
 const AboutComp = () => {
   return (
@@ -21,9 +20,6 @@ const AboutComp = () => {
               Онлайн-терапия позволяет нам гибко встречаться там, где мы
               выберем, без спешки на путь в офис.
             </div>
-            {/* <NavLink className={s.about_btn} to="/about">
-              Подробнее
-            </NavLink> */}
           </div>
         </div>
       </div>

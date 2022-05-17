@@ -1,0 +1,29 @@
+.scroll_to_top_wrapper {
+  position: fixed;
+  z-index: 9999;
+  bottom: 90px;
+  right: 40px;
+}
+
+.scroll_to_top_wrapper:hover {
+  cursor: pointer;
+}
+
+/*! desc:bottom-5 desc:right-5*/
+.scroll_to_top {
+  border-radius: 30%;
+}
+
+/** text-sky-500 text-[40px] mob:text-[30px] hover:text-cyan-600 */
+.scroll_to_top_button {
+  font-size: 40px;
+  color: #fff;
+  background: #00bcd4;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.scroll_to_top_button:hover {
+  color: #00bcd4;
+  background: #fff;
+}
